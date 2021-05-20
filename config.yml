@@ -1,0 +1,12 @@
+development:
+  password: ${DEV_PASSWORD}
+  theme_id: ${DEV_THEMEID}
+  store: ashwini-deshmukh-assignment.myshopify.com
+stage:
+  password: ${STAGE_PASSWORD}
+  theme_id: ${STAGE_THEMEID}
+  store: ashwini-deshmukh-assignment.myshopify.com
+prod:
+  password: ${PROD_PASSWORD}
+  theme_id: ${PROD_THEMEID}
+  store: ashwini-deshmukh-assignment.myshopify.com
