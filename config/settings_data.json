@@ -8,9 +8,9 @@
           "logo": "shopify:\/\/shop_images\/output-onlinepngtools.png",
           "logo_max_width": 90,
           "main_linklist": "main-menu",
-          "message": false,
+          "message": true,
           "home_page_only": true,
-          "message_text": "Announce something here",
+          "message_text": "This is Production Environment",
           "color_bg": "#3a3a3a",
           "color_text": "#ffffff"
         }
@@ -88,18 +88,6 @@
           "rows": 2,
           "show_vendor": false,
           "show_view_all": false
-        }
-      },
-      "hero-2": {
-        "type": "hero",
-        "settings": {
-          "alignment": "center",
-          "hero_layout": "full_width",
-          "hero_size": "medium",
-          "text_size": "large",
-          "title": "Image with text overlay",
-          "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
-          "button_label": ""
         }
       },
       "quotes": {
@@ -229,8 +217,6 @@
       "hero-1",
       "feature-row",
       "1621409369794595c7",
-      "feature-columns",
-      "hero-2",
       "quotes",
       "image-bar"
     ]
