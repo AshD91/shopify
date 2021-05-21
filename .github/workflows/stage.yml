@@ -1,0 +1,21 @@
+name: Deploy theme to the Production env
+
+on:
+  push:
+    branches: [ stage ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Set up Python 2.7
+        uses: actions/setup-python@v2
+        with:
+          python-version: '2.7'
+          
+      - name: Download themekit and Deploy the theme
+        run: |
+          curl -s https://shopify.dev/themekit.py | sudo python
+          theme deploy --store=ashwini-deshmukh-assignment.myshopify.com --password=${{secrets.STAGE_PASSWORD}} --themeid=${{secrets.STAGE_THEMEID}}
